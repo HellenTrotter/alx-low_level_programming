@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main  - this is the main function
- * Return - the exit value of this program is 0
+ * main  - Prints "Programming is like building a multilingual puzzle".
+ * Return - Always 0.
  */
 int main(void)
 {
