@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main  - this is the main function
- * Return - always 0
+ * Return - the exit value of this program is 0
  */
 int main(void)
 {
