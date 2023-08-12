@@ -2,12 +2,13 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/* betty style doc for function goes there */
 /**
- * main - entry point
- * Return: always 0
- * /
-int main
+ * main - entry poin
+ * Return: 0 (success)
+ */
+int main(void)
+{
 	int n;
 
 	srand(time(0));
@@ -19,6 +20,6 @@ int main
 		printf("%d is zero", n);
 	else if (n < 0)
 		printf("%d is negetive", n);
-	print("\n")
+	printf("\n");
 	return (0);
 }
