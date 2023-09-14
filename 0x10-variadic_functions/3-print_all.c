@@ -34,6 +34,7 @@ void print_all(const char * const format, ...)
 						str = "(nil)";
 					printf("%s%s", s, str);
 					break;
+				default:
 					j++;
 					continue;
 			}
