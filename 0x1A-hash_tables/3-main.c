@@ -4,7 +4,7 @@
 #include "hash_tables.h"
 
 /**
- * main - check the code for
+ * main - check the code
  *
  * Return: Always EXIT_SUCCESS.
  */
@@ -14,6 +14,6 @@ int main(void)
 
 	ht = hash_table_create(1024);
 
-	printf("%p\n", (void *)ht);
+	hash_table_set(ht, "betty", "cool");
 	return (EXIT_SUCCESS);
 }
